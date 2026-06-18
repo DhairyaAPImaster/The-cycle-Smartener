@@ -523,7 +523,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../../../Production/PCB/",
+      "plot": "../../../Production/PCB/gerbers/",
       "specctra_dsn": "",
       "vrml": ""
     },
