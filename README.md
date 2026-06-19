@@ -18,11 +18,24 @@ Btw it also has a 2.4inch LCD Display  (to displays whatever needs to be display
 ## Folder Structure
 
 `src/` - source files for PCB and CAD
+
+
 `src/FreeCAD/` - mechanical CAD sources (open the .FCStd in FreeCAD)
+
+
+
 `src/KiCAD/` - KiCad project files for the PCB
+
+
 `production/` - exports and fab outputs (gerbers, BOM, stls)
+
+
 `production/PCB/` - gerbers, BOM, CPL
+
+
 `production/CAD/` - exported STLs for the case
+
+
 `images/` - screenshots and photos used in this README
 
 
