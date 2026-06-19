@@ -105,6 +105,10 @@ Btw it also has a 2.4inch LCD Display  (to displays whatever needs to be display
 
 ## License and Credits
 
+**License -->**
+MIT — see `LICENSE`.
+
+**Credits -->**
 ***I used the following for making this project***
 
 - ***KiCAD*** - For PCB design
