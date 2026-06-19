@@ -106,7 +106,7 @@ Btw it also has a 2.4inch LCD Display  (to displays whatever needs to be display
 ## License and Credits
 
 **License -->**
-MIT — see `LICENSE`.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 **Credits -->**
 ***I used the following for making this project***
