@@ -41,6 +41,34 @@ Btw it also has a 2.4inch LCD Display  (to displays whatever needs to be display
 
 ## BOM
 
+<details>
+<summary><b>Click to expand Bill of Materials</b></summary>
+
+| Designator | Designation | Quantity | Footprint |
+|---|---|---|---|
+| C1, C2 | 10µF | 2 | CP_Radial_D5.0mm_P2.50mm |
+| C3, C7, C8, C9 | 0.1uF | 4 | C_Disc_D5.0mm_W2.5mm_P5.00mm |
+| C4 | 10uF | 1 | C_Disc_D5.0mm_W2.5mm_P5.00mm |
+| D1 | GREEN LED | 1 | LED_D5.0mm |
+| D2 | RED LED | 1 | LED_D5.0mm |
+| J1 | TP4056 Module | 1 | PinHeader_1x02_P2.54mm_Vertical |
+| J2 | AudioJack3 | 1 | Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal |
+| J3 | SD CARD READER | 1 | PinHeader_1x06_P2.54mm_Horizontal |
+| J4 | J5A - INMP441 Left | 1 | PinHeader_1x03_P2.54mm_Vertical |
+| J5 | J5B - INMP441 Right | 1 | PinHeader_1x06_P2.54mm_Vertical |
+| J6 | UART_HEADER | 1 | PinHeader_1x08_P2.54mm_Vertical |
+| J7 | Display connector | 1 | PinHeader_1x08_P2.54mm_Vertical |
+| J8 | MAX 98357A_left | 1 | PinHeader_1x02_P2.54mm_Vertical |
+| J9 | MAX 98357A_right | 1 | PinHeader_1x07_P2.54mm_Vertical |
+| R1 | R | 1 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal |
+| R2 | 10k | 1 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal |
+| R4, R5 | 150 | 2 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal |
+| SW1, SW2 | SW_Push | 2 | SW_PUSH_6mm |
+| U1 | ESP32-WROOM-32 | 1 | ESP32-WROOM-32 |
+| U2 | AMS1117-3.3 | 1 | SOT-223-3_TabPin2 |
+
+</details>
+
 
 
 
