@@ -9,7 +9,7 @@
 
 So the Cycle smartener or TCS for short is basically this device that i designed that can be fitted on top of (almost) any modern cycle. Btw i made this cause i absolutelly love cycling and yeah having such a device would make the whole ride way more fun and interesting.
 
-I plan on integrating TinyML to also integrate AI into it so that it can do stuff like change the song or answer questions from voice commands. Alsoin next versions i plan on adding bluetooth so that one can connect their device - smart phone or something to it. and an sd card slot for one to put a micro sd in it to add music.
+I plan on integrating TinyML (later) to also integrate AI into it so that it can do stuff like change the song or answer questions from voice commands. Alsoin next versions i plan on adding bluetooth so that one can connect their device - smart phone or something to it. and an sd card slot for one to put a micro sd in it to add music.
 
 Btw it also has a 2.4inch LCD Display  (to displays whatever needs to be displayed).
 
@@ -17,24 +17,19 @@ Btw it also has a 2.4inch LCD Display  (to displays whatever needs to be display
 
 ## Folder Structure
 
-`src/` - source files for PCB and CAD
+`firmware/` - ESP32 firmware source code (C++)
 
+`src/` - source files for PCB and CAD
 
 `src/FreeCAD/` - mechanical CAD sources (open the .FCStd in FreeCAD)
 
-
-
 `src/KiCAD/` - KiCad project files for the PCB
 
+`Production/` - exports and fab outputs (gerbers, BOM, STLs)
 
-`production/` - exports and fab outputs (gerbers, BOM, stls)
+`Production/PCB/` - gerbers, BOM, CPL files
 
-
-`production/PCB/` - gerbers, BOM, CPL
-
-
-`production/CAD/` - exported STLs for the case
-
+`Production/CAD/` - exported STLs for the case
 
 `images/` - screenshots and photos used in this README
 
