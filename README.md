@@ -5,7 +5,7 @@
 ### By Dhairya
 
 
-**Firmware Note --->  Used a friend help and also used AI (github copilot) too to like help me write a part of it as well ngl I suck at C++ also like used github copilot to like arrange the code in a more readable manner.**
+
 
 
 ## About "The Cycle Smartener"
@@ -194,6 +194,8 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 - **[APX HUB by @Gabouin](https://github.com/Gabouin/APX-USB-HUB)** - Readme template
 
 ## Final Notes
+
+**Firmware Note --->  Used a friend help and also used AI (github copilot) too to like help me write a part of it as well ngl I suck at C++ also like used github copilot to like arrange the code in a more readable manner.**
 
 btw i will add notes here when i need to but rn there is no note.
 
