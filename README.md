@@ -5,6 +5,9 @@
 ### By Dhairya
 
 
+**Firmware Note --->  Used a friend help and also used AI (github copilot) too to like help me write a part of it as well ngl I suck at C++ also like used github copilot to like arrange the code in a more readable manner.**
+
+
 ## About "The Cycle Smartener"
 
 So the Cycle smartener or TCS for short is basically this device that i designed that can be fitted on top of (almost) any modern cycle. Btw i made this cause i absolutelly love cycling and yeah having such a device would make the whole ride way more fun and interesting.
