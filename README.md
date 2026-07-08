@@ -71,7 +71,7 @@ Here's the parts list i kept while designing - both PCB parts and non-PCB compon
 | --- | --- | ---: | ---: | ---: |
 | Electronics Components Total | | | | **$41.61** |
 | JLCPCB (PCB + Shipping) | | | | **$18.48** |
-| JLCPCB Tax | | | | **$7.40** |
+| Tax | | | | **$7.40** |
 | **Grand Total (USD)** | | | | **$67.49** |
 
 ***
