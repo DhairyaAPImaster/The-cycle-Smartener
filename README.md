@@ -43,29 +43,36 @@ Btw it also has a 2.4inch LCD Display  (to displays whatever needs to be display
 
 Here's the parts list i kept while designing - both PCB parts and non-PCB components. i used the file `Production/BOM with non PCB parts too.csv` as the source.
 
-| Item | Purpose | Qty | Link |
-| --- | --- | ---: | --- |
-| Micro SD 16GB | For storage | 1 | [link](https://robu.in/product/sandisk-ultra-micro-sd-16gb-uhs-i-98mbs-r-class-10-memory-card/) |
-| 40 Pin 2.54mm Male and Female Pin Headers | For connecting modules | 1 | [link](https://www.amazon.in/Super-Debug-Headers-Arduino-Prototype/dp/B09MZD3RBF) |
-| Micro SD Card Reader Module | For storage/songs | 1 | [link](https://robu.in/product/micro-sd-card-module/) |
-| 3mm Red LED | status/error indicator | 7 | [link](https://robu.in/product/3mm-red-dip-led-pack-of-50/) |
-| 3mm Green LED | status/ok indicator | 7 | [link](https://robu.in/product/5mm-green-surface-mount-led-pack-of-50/) |
-| Tactile Push Button Switch 6x6 | Buttons | 1 (pack) | [link](http://robu.in/product/6x6x5-tactile-push-button-switch/) |
-| 10uF 25V Electrolytic Capacitor | Decoupling | 1 | [link](https://www.amazon.in/10uF-25V-Electrolytic-Capacitor-Pack/dp/B08X2NSPZN) |
-| 0.1µF Ceramic Capacitor THT | Decoupling | 10 | [link](https://robu.in/product/100nf-50v-disc-capacitor/) |
-| 150Ω Resistor THT | Resistor | 5 | [link](https://robu.in/product/mf25-150r-multicomp-pro-through-hole-resistor-150-ohm-mf25-series-250-mw-%C2%B1-1-axial-leaded-250-v/) |
-| 10kΩ Resistor THT | Resistor | 5 | [link](https://robu.in/product/mfr-25frf52-10k-yageo-metal-film-resistors-10k%CF%89-250mw-%C2%B1100ppm-%E2%84%83-%C2%B11-plugind2-4xl6-3mm-through-hole-resistors-rohs/) |
-| 18650 single cell holder | Battery holder | 1 | [link](https://robu.in/product/1-x-18650-cell-box/) |
-| 3.7V 2600mAh Li-Ion Battery | Power | 2 | [link](https://robu.in/product/dmegc-inr18650-26e-3-7v-2600mah-li-ion-battery/) |
-| AMS1117 3.3V SOT223 | Voltage regulator | 2 | [link](https://robu.in/product/ams1117-3-3v-1a-sot-223-voltage-regulator-ic-pack-of-5-ics/) |
-| TP4056 micro USB charger module | Charger | 1 | [link](https://robu.in/product/tp4056-1a-li-ion-battery-charging-board-micro-usb-with-current-protection-type-c-connector/) |
-| INMP441 Mic Module | Microphone | 1 | [link](https://www.flyrobo.in/inmp441-mems-high-precision-omnidirectional-microphone-module-i2s-interface-supports-esp32) |
-| MAX98357 I2S 3W CLASS D Audio Amplifier Module | Amp | 1 | [link](https://www.flyrobo.in/max98357-i2s-3w-class-d-audio-amplifier-module) |
-| CP2102(6-pin) USB 2.0 to TTL UART serial converter | Serial programmer | 1 | [link](http://robu.in/product/cp-2102-6-pin/) |
-| 2.4inch LCD Display Module | Display | 1 | [link](https://robu.in/product/waveshare-240x320-general-2-4inch-lcd-display-module-65k-rgb/) |
-| ESP32-WROOM-32U Wi-Fi BLE Module | (used in earlier designs) | 1 | [link](https://evelta.com/esp32-wroom-32u-wi-fi-ble-module-4mb-ipex-antenna-connector/?sku=136-ESP32-WROOM-32U-N4) |
+| Item | Purpose | Qty | Unit Price (USD) | Total (USD) | Link |
+| --- | --- | ---: | ---: | ---: | --- |
+| Micro SD 16GB | For storage | 1 | $13.07 | $13.07 | [link](https://robu.in/product/sandisk-ultra-micro-sd-16gb-uhs-i-98mbs-r-class-10-memory-card/) |
+| 40 Pin 2.54mm Male and Female Pin Headers | For connecting modules | 1 | $1.25 | $1.25 | [link](https://www.amazon.in/Super-Debug-Headers-Arduino-Prototype/dp/B09MZD3RBF) |
+| Micro SD Card Reader Module | For storage/songs | 1 | $0.35 | $0.35 | [link](https://robu.in/product/micro-sd-card-module/) |
+| 3mm Red LED | Status/Error Indicator | 11 | $0.01 | $0.10 | [link](https://robu.in/product/3mm-red-dip-led-pack-of-50/) |
+| 3mm Green LED | Status/OK Indicator | 7 | $0.02 | $0.11 | [link](https://robu.in/product/5mm-green-surface-mount-led-pack-of-50/) |
+| Tactile Push Button Switch 6x6 | Buttons | 1 Pack | $0.16 | $0.16 | [link](https://robu.in/product/6x6x5-tactile-push-button-switch/) |
+| 10uF 25V Electrolytic Capacitor (Pack of 12) | Decoupling | 1 Pack | $0.83 | $0.83 | [link](https://www.amazon.in/10uF-25V-Electrolytic-Capacitor-Pack/dp/B08X2NSPZN) |
+| 0.1µF Ceramic Capacitor (100nF) | Decoupling | 10 | $0.01 | $0.13 | [link](https://robu.in/product/100nf-50v-disc-capacitor/) |
+| 150Ω Through-Hole Resistor | LED Current Limiting | 5 | $0.04 | $0.19 | [link](https://robu.in/product/mf25-150r-multicomp-pro-through-hole-resistor-150-ohm-mf25-series-250-mw-%C2%B1-1-axial-leaded-250-v/) |
+| 10kΩ Through-Hole Resistor | Pull-up/Pull-down | 5 | $0.03 | $0.13 | [link](https://robu.in/product/mfr-25frf52-10k-yageo-metal-film-resistors-10k%CF%89-250mw-%C2%B1100ppm-%E2%84%83-%C2%B11-plugind2-4xl6-3mm-through-hole-resistors-rohs/) |
+| 18650 Single Cell Holder | Battery Holder | 1 | $0.29 | $0.29 | [link](https://robu.in/product/1-x-18650-cell-box/) |
+| 3.7V 2500mAh Li-Ion Battery | Power | 1 | $1.58 | $1.58 | [link](https://robocraze.com/products/3-7v-2500mah-18650-li-ion-battery?variant=43194107920608&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoojrg3iIbeikOa49Kg1J_byq0ZA_cZZ5BnBvvXHzwX-LQ-mY7_X_Ts&gclid=CjwKCAjw6rfSBhAqEiwA_yocphlz4TVfzvYZmMYIPGl8_hWx_POv68B57GqonKcBJzbM5ypkRMQ7fhoCPvMQAvD_BwE) |
+| AMS1117-3.3V Voltage Regulator | Voltage Regulation | 2 | $0.09 | $0.19 | [link](https://robu.in/product/ams1117-3-3v-1a-sot-223-voltage-regulator-ic-pack-of-5-ics/) |
+| TP4056 Type-C Charging Module | Li-Ion Charger | 1 | $0.17 | $0.17 | [link](https://robu.in/product/tp4056-1a-li-ion-battery-charging-board-micro-usb-with-current-protection-type-c-connector/) |
+| INMP441 MEMS I2S Microphone Module | Audio Input | 1 | $4.58 | $4.58 | [link](https://www.flyrobo.in/inmp441-mems-high-precision-omnidirectional-microphone-module-i2s-interface-supports-esp32) |
+| MAX98357 I2S 3W Class-D Audio Amplifier | Audio Output | 1 | $3.38 | $3.38 | [link](https://www.flyrobo.in/max98357-i2s-3w-class-d-audio-amplifier-module) |
+| CP2102 USB to TTL UART Converter | Programming | 1 | $1.18 | $1.18 | [link](https://robu.in/product/cp-2102-6-pin/) |
+| Waveshare 2.4" 240×320 LCD Display | User Interface | 1 | $11.09 | $11.09 | [link](https://robu.in/product/waveshare-240x320-general-2-4inch-lcd-display-module-65k-rgb/) |
+| ESP32-WROOM-32U Wi-Fi + BLE Module | Main Microcontroller | 1 | $2.81 | $2.81 | [link](https://evelta.com/esp32-wroom-32u-wi-fi-ble-module-4mb-ipex-antenna-connector/?sku=136-ESP32-WROOM-32U-N4) |
+| JLCPCB PCB Fabrication + Shipping | Custom PCB Manufacturing | 1 | $18.48 | $18.48 | [link](https://jlcpcb.com/) |
+| JLCPCB Tax | Taxes | 1 | $7.40 | $7.40 | [link](https://jlcpcb.com/) |
 
-If you want the original CSV file i used it's at `Production/BOM with non PCB parts too.csv` (cleaned to remove jumper wires and the PCB entry per your request).
+| **Summary** | | | | |
+| --- | --- | ---: | ---: | ---: |
+| Electronics Components Total | | | | **$41.61** |
+| JLCPCB (PCB + Shipping) | | | | **$18.48** |
+| JLCPCB Tax | | | | **$7.40** |
+| **Grand Total (USD)** | | | | **$67.49** |
 
 ***
 
